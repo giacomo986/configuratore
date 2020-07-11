@@ -15,7 +15,7 @@ class SelObserver:
 		if (str(obj)[:11] == "Fine_nastro"):
 			FreeCAD.Console.PrintMessage("cliccato su sfera " + str(obj) + "\n")
 
-			RichiestaNastroCurva()
+			#RichiestaNastroCurva()
 
 		if (str(obj)[:15] == "Fianco_sinistro"):
 			FreeCAD.Console.PrintMessage("cliccato su " + str(obj) + "\n")
